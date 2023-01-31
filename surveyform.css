@@ -1,0 +1,79 @@
+body {
+  background-image: url("/imgs/shutterstock_1206167314-res-640x360.jpg");
+  background-size:cover;
+  text-align: center;
+  font-size: large;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 5px solid rgb(17, 36, 17);
+  background-color: #3cbc8d;
+  color: white;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 500px;
+}
+
+input[type="radio"] {
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+
+  transform: translateY(-0.075em);
+}
+
+input[type="checkbox"] {
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+}
+
+#textarea {
+  width: 500px;
+  color: rgb(225, 144, 144);
+  margin: solid;
+}
+
+#dropdown {
+  width: 20em;
+  height: 35px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: x-large;
+}
+
+#info {
+  width: 300px;
+
+}
+
+#description {
+  font-size: 40px;
+  text-align: center;
+}
+
+#survey-form {
+  background-color: rgb(121, 79, 160);
+  text-align: left;
+  width: auto;
+  margin: 25px 350px;
+  padding: 12px;
+  font-size: 22px;
+  border-radius: 10px;
+}
